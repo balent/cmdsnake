@@ -10,7 +10,7 @@ To run the game:
 
     mvn exec:java -Dexec.mainClass="cmdsnake.Main"
 
-If you are in graphic environment this will start the game in swing-based command line. If you would like to run it in actual command line run:
+If you are in graphic environment this will start the game in swing-based command line. To start game in actual command line you are using, execute:
 
     mvn -Djava.awt.headless=true exec:java -Dexec.mainClass="cmdsnake.Main"
 
